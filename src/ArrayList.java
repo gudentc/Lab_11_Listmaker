@@ -26,7 +26,7 @@ public class ArrayList {
             System.out.println("[S] - Sort the list alphabetically");
             System.out.println("[C] - Clear the entire list");
             System.out.println("[Q] - Quit");
-            menuChoice = SafeInput.getregExString(in, "Please select from the menu","[AaDdSsCcQq");
+            menuChoice = SafeInput.getregExString(in, "Please select from the menu","[AaDdSsCcQq"]);
             // call functions base on menu choice
             if (menuChoice.equalsIgnoreCase("Q")) {
                 closeProgram = SafeInput.getYNConfirm(in, "Are you sure you want to Quit? ");
